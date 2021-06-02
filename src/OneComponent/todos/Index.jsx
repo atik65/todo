@@ -15,7 +15,7 @@ export default class Index extends Component {
       {
         id: shortId.generate(),
         text: "Todo title one",
-        description: "first description",
+        description: "First description",
         time: new Date(),
         isChecked: false,
         isCompleted: false,
@@ -23,7 +23,7 @@ export default class Index extends Component {
       {
         id: shortId.generate(),
         text: "Todo title two",
-        description: "second description",
+        description: "Second description",
         time: new Date(),
         isChecked: false,
         isCompleted: false,
