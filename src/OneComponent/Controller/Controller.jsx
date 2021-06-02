@@ -34,7 +34,7 @@ const Controller = ({
             filterColor={filterColor}
           />
         </Col>
-        <Col md={{ size: 4 }}>
+        <Col md={{ size: 4 }} className="my-2">
           {" "}
           <ViewController handleView={handleView} view={view} />{" "}
         </Col>
